@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/TantawanMVC/TantawanMVC.csproj",
+  "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/Tantawan_DotnetCoreMVC/TantawanMVC.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16298,57 +16298,57 @@
   "RootNamespace": "TantawanMVC",
   "Documents": [
     {
-      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/TantawanMVC/Views/Home/Contact.cshtml",
-      "TargetPath": "Views\\Home\\Contact.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/TantawanMVC/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/TantawanMVC/Views/Home/Career.cshtml",
+      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/Tantawan_DotnetCoreMVC/Views/Home/Career.cshtml",
       "TargetPath": "Views\\Home\\Career.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/TantawanMVC/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/Tantawan_DotnetCoreMVC/Views/Home/Contact.cshtml",
+      "TargetPath": "Views\\Home\\Contact.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/TantawanMVC/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/TantawanMVC/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/TantawanMVC/Views/Home/Customer.cshtml",
-      "TargetPath": "Views\\Home\\Customer.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/TantawanMVC/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/TantawanMVC/Views/Home/About.cshtml",
+      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/Tantawan_DotnetCoreMVC/Views/Home/About.cshtml",
       "TargetPath": "Views\\Home\\About.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/TantawanMVC/Views/Shared/Error.cshtml",
+      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/Tantawan_DotnetCoreMVC/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/Tantawan_DotnetCoreMVC/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/TantawanMVC/Views/Home/Capabilities.cshtml",
+      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/Tantawan_DotnetCoreMVC/Views/Home/Customer.cshtml",
+      "TargetPath": "Views\\Home\\Customer.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/Tantawan_DotnetCoreMVC/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/Tantawan_DotnetCoreMVC/Views/_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/Tantawan_DotnetCoreMVC/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/Tantawan_DotnetCoreMVC/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/thongchai_t/Desktop/Tantawan_final/Tantawan_DotnetCoreMVC/Views/Home/Capabilities.cshtml",
       "TargetPath": "Views\\Home\\Capabilities.cshtml",
       "FileKind": "mvc"
     }
