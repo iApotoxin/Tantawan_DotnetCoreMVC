@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "nj73il/hMan+IqlytuUYHCINrPYcFxTNBcbI4siAxEmfI3IfMNkZIz+AMvaCLUt5gM01B+eRmD3JQkAfWnej5w==",
+  "dgSpecHash": "ZSlRyYb3C0OlhfaFTijBPxNk9A1SAlFEjRYJq1a4AsLx9Fp1U5dE8LPZyM+4n5mXCjRyEn0hx6Fc17CGTq7/9g==",
   "success": true,
-  "projectFilePath": "/Users/thongchai_t/Desktop/Tantawan/TantawanMVC/TantawanMVC.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/thongchai_t/Desktop/Tantawan_final/TantawanMVC/TantawanMVC.csproj",
+  "expectedPackageFiles": [
+    "/Users/thongchai_t/.nuget/packages/mailkit/3.3.0/mailkit.3.3.0.nupkg.sha512",
+    "/Users/thongchai_t/.nuget/packages/mimekit/3.3.0/mimekit.3.3.0.nupkg.sha512",
+    "/Users/thongchai_t/.nuget/packages/portable.bouncycastle/1.9.0/portable.bouncycastle.1.9.0.nupkg.sha512",
+    "/Users/thongchai_t/.nuget/packages/system.formats.asn1/6.0.0/system.formats.asn1.6.0.0.nupkg.sha512",
+    "/Users/thongchai_t/.nuget/packages/system.security.cryptography.pkcs/6.0.0/system.security.cryptography.pkcs.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
