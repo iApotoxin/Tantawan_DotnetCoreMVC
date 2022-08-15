@@ -21,7 +21,8 @@ namespace TantawanMVC.Controllers
             this.mailService = mailService;
         }
 
-        [HttpPost("send")]
+        [HttpPost]
+        [Route("Send")]
         public async Task<IActionResult> SendMail([FromForm] MailRequest request)
         {
             try
