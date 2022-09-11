@@ -1,7 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Career";
 }
-@using (Html.BeginForm("Career", "Home", FormMethod.Post))
+@using (Html.BeginForm("Career", "Home", FormMethod.Post, new {enctype="multipart/form-data"}))
 {
 <!-- Section 1 Start -->
  <div class="row addMargintop">
@@ -216,7 +216,8 @@
        @* <textarea type="text" id="Address" class="inputclassArea" placeholder="Address*" ></textarea> *@
         @Html.TextAreaFor(m=>m.Address,new { @class = "inputclassArea",@placeholder="Address*", @rows="5", @cols="33",@style="height:300px;" })
 
-       <input type="file"  name="browserfile">
+       @Html.TextBoxFor(m=>m.File, new {type = "file"})
+       @Html.ValidationMessageFor(m=>m.File)
 </div>
 
 </div>

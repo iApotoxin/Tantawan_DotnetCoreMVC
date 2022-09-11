@@ -55,7 +55,7 @@ public class HomeController : Controller
                 Console.WriteLine(_email);
                 Console.WriteLine(_phone);
                 Console.WriteLine(_address);
-                // Console.WriteLine(_file.FileName);
+                Console.WriteLine(_file.FileName);
                 
                 ModelState.Clear();  
         }
