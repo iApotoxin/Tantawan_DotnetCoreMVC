@@ -1,7 +1,9 @@
-﻿@{
+﻿
+@{
     ViewData["Title"] = "Contact";
 }
-
+@using (Html.BeginForm("Contact", "Home", FormMethod.Post))
+{
 <link type="text/css" rel="stylesheet"
      asp-append-version="true" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400&amp;lang=th">
 <link type="text/css" rel="stylesheet"
@@ -703,26 +705,31 @@
             <h1>Get In<span style="color:#252170;"> Touch</span></h1>
           </div>
         </div>
-
+        @model Tantawan_DotnetCoreMVC.Models.Contact
+     
         <div class="row">
           <div class="container">
             <div class="row" style="margin: 20px;">
               <div class="col-md-6">
-                <input type="text" id="FullName" class="inputclass" placeholder="Full Name*">
+                @* <input type="text" id="FullName" class="inputclass" placeholder="Full Name*"> *@
+                @Html.TextBoxFor(m=>m.FullName,new { @class = "inputclass",@placeholder="Full Name*" })
               </div>
               <div class="col-md-6">
-                <input type="text" id="Phone" class="inputclass" placeholder="Phone*">
+                @* <input type="text" id="Phone" class="inputclass" placeholder="Phone*"> *@
+                 @Html.TextBoxFor(m=>m.Phone,new { @class = "inputclass",@placeholder="Phone*" })
               </div>
             </div>
             <div class="row" style="margin: 20px;">
               <div class="col-md-12">
-                <input type="text" id="EmailAddress" class="inputclass" placeholder="Email Address*">
+                @* <input type="text" id="EmailAddress" class="inputclass" placeholder="Email Address*"> *@
+                @Html.TextBoxFor(m=>m.Email,new { @class = "inputclass",@placeholder="Email Address*" })
               </div>
             </div>
             <div class="row" style="margin: 20px;">
               <div class="col-md-12" style="height: 200px;">
-                <textarea class="inputclass" id="Message" name="Message" rows="5" cols="33" placeholder="Message"
-                  style="height:200px;"></textarea>
+                @* <textarea class="inputclass" id="Message" name="Message" rows="5" cols="33" placeholder="Message"
+                  style="height:200px;"></textarea> *@
+                  @Html.TextAreaFor(m=>m.Message,new { @class = "inputclass",@placeholder="Message", @rows="5", @cols="33",@style="height:200px;" })
               </div>
             </div>
 
@@ -731,11 +738,9 @@
     
       
         <div class="col-md-12">
-          <form action="mailto:wiraphon.597@gmail.com" method="post" enctype="text/plain" >
-          
-          <input type="button" class="btn-warning" style="height: 50px;width: 200px;border-radius: 10px;" id="onClickSubmit" value="Send Message" />
+          <button type="submit" class="btn-warning" style="height: 50px;width: 200px;border-radius: 10px;">Send Message</button>
           <br><br><br>
-        </form>
+        
     </div>
     </div>
 
@@ -745,3 +750,4 @@
     </div>
       <!-- Section 2 End  -->
       </body>
+      }

@@ -1,6 +1,8 @@
 ﻿@{
     ViewData["Title"] = "Career";
 }
+@using (Html.BeginForm("Career", "Home", FormMethod.Post))
+{
 <!-- Section 1 Start -->
  <div class="row addMargintop">
 <div class="container">
@@ -168,43 +170,53 @@
 <br>
 <div class="row">
     <div class="container" >
+        @model Tantawan_DotnetCoreMVC.Models.Career
        <div class="row" style="margin: 20px;">
            <div class="col-md-6">
-               <input type="text" id="FirstName" class="inputclass" placeholder="First Name*" >
+              @* <input type="text" id="FirstName" class="inputclass" placeholder="First Name*" > *@
+              @Html.TextBoxFor(m=>m.FirstName,new { @class = "inputclass",@placeholder="First Name*" })
        </div>
        <div class="col-md-6">
-               <input type="text" id="LastName" class="inputclass" placeholder="Last Name*" >
+              @* <input type="text" id="LastName" class="inputclass" placeholder="Last Name*" > *@
+              @Html.TextBoxFor(m=>m.LastName,new { @class = "inputclass",@placeholder="Last Name*" })
         </div>
     </div>
     <div class="row" style="margin: 20px;">
         <div class="col-md-6">
-            <input type="text" id="Position" class="inputclass" placeholder="Position*" >
+            @* <input type="text" id="Position" class="inputclass" placeholder="Position*" > *@
+            @Html.TextBoxFor(m=>m.Position,new { @class = "inputclass",@placeholder="Position*" })
     </div>
     <div class="col-md-6">
-            <input type="text" id="ExspectedSalaryBaht" class="inputclass" placeholder="Exspected Salary Baht*" >
+            @* <input type="text" id="ExspectedSalaryBaht" class="inputclass" placeholder="Exspected Salary Baht*" > *@
+            @Html.TextBoxFor(m=>m.Salary,new { @class = "inputclass",@type = "number", @placeholder="Exspected Salary Baht*" })
      </div>
  </div>
  <div class="row" style="margin: 20px;">
     <div class="col-md-6">
-        <input type="date" id="Birthdate"  class="inputclass" placeholder="Birthdate*" >
+        @* <input type="date" id="Birthdate"  class="inputclass" placeholder="Birthdate*" > *@
+        @Html.TextBoxFor(m=>m.Date,new { @class = "inputclass", @type = "date",@placeholder="Birthdate*" })
 </div>
 <div class="col-md-6">
-        <input type="text" id="Age" class="inputclass" placeholder="Age*" >
+        @* <input type="text" id="Age" class="inputclass" placeholder="Age*" > *@
+        @Html.TextBoxFor(m=>m.Age,new { @class = "inputclass",@type = "number", @placeholder="Age*" })
  </div>
 </div>
 <div class="row" style="margin: 20px;">
     <div class="col-md-6">
-        <input type="text" id="EmailAddress" class="inputclass" placeholder="Email Address*" >
+        @* <input type="text" id="EmailAddress" class="inputclass" placeholder="Email Address*" > *@
+        @Html.TextBoxFor(m=>m.Email,new { @class = "inputclass",@placeholder="Email Address*" })
 </div>
 <div class="col-md-6">
-        <input type="text" id="PhoneNumber" class="inputclass" placeholder="Phone Number*" >
+        @* <input type="text" id="PhoneNumber" class="inputclass" placeholder="Phone Number*" > *@
+        @Html.TextBoxFor(m=>m.Phone,new { @class = "inputclass",@placeholder="Phone Number*" })
  </div>
 </div>
 <div class="row" style="margin: 20px;">
     <div class="col-md-12">
-       <textarea type="text" id="Address" class="inputclassArea" placeholder="Address*" ></textarea>
-       <br>
-       <input type="file" id="browserfile" name="browserfile">
+       @* <textarea type="text" id="Address" class="inputclassArea" placeholder="Address*" ></textarea> *@
+        @Html.TextAreaFor(m=>m.Address,new { @class = "inputclassArea",@placeholder="Address*", @rows="5", @cols="33",@style="height:300px;" })
+
+       <input type="file"  name="browserfile">
 </div>
 
 </div>
@@ -213,11 +225,9 @@
 
   
     <div class="col-md-12">
-      <form action="mailto:wiraphon.597@gmail.com" method="post" enctype="text/plain" >
-      <!-- <button class="btn-warning" id="onClickSubmit" style="height: 50px;width: 200px;border-radius: 10px;">Apply For a Job</button> -->
-      <input type="button" class="btn-warning" style="height: 50px;width: 200px;border-radius: 10px;" id="onClickSubmit" value="Apply For a Job" />
+      <button class="btn-warning" type="submit" style="height: 50px;width: 200px;border-radius: 10px;">Apply For a Job</button>
+      @* <input type="button" class="btn-warning" style="height: 50px;width: 200px;border-radius: 10px;" id="onClickSubmit" value="Apply For a Job" /> *@
       <br><br><br>
-    </form>
 </div>
 </div>
 
@@ -225,3 +235,4 @@
 </div>
 
 <!-- Section 3 End -->
+}
