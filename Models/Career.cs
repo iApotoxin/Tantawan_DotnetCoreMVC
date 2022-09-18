@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Tantawan_DotnetCoreMVC.Models
+namespace TantawanMVC.Models
 {
     public class Career
     {
@@ -16,6 +16,6 @@ namespace Tantawan_DotnetCoreMVC.Models
         public string Email {get; set; }
         public string Phone {get; set; }
         public string Address {get; set; }
-       public IFormFile File {get;set;}
+       public IFormFile? File {get;set;}
     }
 }
