@@ -6,7 +6,6 @@ using MailKit.Net.Smtp;
 using MailKit.Security;
 using Microsoft.Extensions.Options;
 using MimeKit;
-using Tantawan_DotnetCoreMVC.Models;
 using TantawanMVC.Models;
 
 namespace TantawanMVC.Services
